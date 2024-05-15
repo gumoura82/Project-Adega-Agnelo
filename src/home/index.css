@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    font-family: "Roboto-Regular";
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 592px;
+}
+
+.menu-browser {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 39px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.img-brandlogo {
+    width: 80px; 
+    height: 64px; 
+    margin-right: 10px; 
+}
+
+.brand h4 {
+    font-size: 28px; 
+    color: black;
+    font-weight: bold; 
+}
+
+.div-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.div-nav ul li {
+    margin-right: 30px; 
+}
+
+.div-nav ul li a {
+    text-decoration: none; 
+    color: black;
+    padding: 10px 15px ; 
+}
+
+.div-nav ul li a:hover {
+    opacity: 80%;
+}
+
+.div-nav ul li a:active {
+    opacity: 50%;
+}
+
+.input-nav {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 16px;
+    margin-top: 8px;
+    margin-right: 37px;
+    border-radius: 4px;
+    padding: 6px 2px;
+}
+
+.div-nav a img{
+    width: 40px;
+    height: 40px;
+    margin: 4px 0px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    background-color: #4C0013 ;
+    height: 512px;
+}
