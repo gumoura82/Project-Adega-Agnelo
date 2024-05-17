@@ -5,6 +5,10 @@ body {
     box-sizing: border-box;
 }
 
+/* 
+Header and Nav
+*/
+
 .header {
     height: 592px;
 }
@@ -24,8 +28,8 @@ body {
 }
 
 .img-brandlogo {
-    width: 80px; 
-    height: 64px; 
+    width: auto; 
+    height: 85px; 
     margin-right: 10px; 
 }
 
@@ -57,10 +61,12 @@ body {
 
 .div-nav ul li a:hover {
     opacity: 80%;
+    color: #4C0013;
 }
 
 .div-nav ul li a:active {
     opacity: 50%;
+    color: #4C0013;
 }
 
 .input-nav {
@@ -68,21 +74,71 @@ body {
     align-items: center;
     width: 200px;
     height: 16px;
-    margin-top: 8px;
-    margin-right: 37px;
+    border: 2px solid #a1a1a1;
     border-radius: 4px;
     padding: 6px 2px;
 }
 
-.div-nav a img{
-    width: 40px;
-    height: 40px;
-    margin: 4px 0px;
-}
-
 .section-header {
     display: flex;
-    justify-content: center;
-    background-color: #4C0013 ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4C0013;
     height: 512px;
 }
+
+.conteiner-box-text-header h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.conteiner-box-text-header p {
+    color: white;
+    margin-bottom: 57px;
+}
+
+.conteiner-box-text-header a {
+    text-decoration: none; 
+    border: 2px solid white;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.img-header {
+    width: auto;
+    height: 400px;
+}
+
+/* 
+Section "Vinhos"
+*/
+
+.conteiner-box-text h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.conteiner-box-text p {
+    color: black;
+    margin-bottom: 35px;
+}
+
+.offers-wines {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 440px;
+}
+
+/* 
+Section "Nossa Hístoria
+*/
+
