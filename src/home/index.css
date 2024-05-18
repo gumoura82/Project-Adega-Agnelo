@@ -74,9 +74,14 @@ Header and Nav
     align-items: center;
     width: 200px;
     height: 16px;
-    border: 2px solid #a1a1a1;
+    border: 2px solid #cbcbcb;
     border-radius: 4px;
     padding: 6px 2px;
+}
+
+.input-nav::placeholder {
+    font-family: "Roboto-Regular";
+    color: #aaaaaa;
 }
 
 .section-header {
@@ -108,6 +113,12 @@ Header and Nav
     color: black;
     background-color: #FFFFFF;
     padding: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.conteiner-box-text-header a:hover {
+    background-color: #4C0013;
+    color: white;
 }
 
 .img-header {
@@ -136,7 +147,44 @@ Section "Vinhos"
     justify-content: space-around;
     align-items: center;
     height: 440px;
+    border-bottom: 1px solid #f5f2f2;
 }
+
+.container-wines {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.img-wines {
+    width: auto;
+    height: 240px;
+    border: 1% solid white;
+    border-radius: 9px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: #FFFFFF;
+}
+
+.wines-ad {
+    border: 1px solid #cbcbcb;
+    border-radius: 9px;
+}
+
+.wines-ad-text {
+    padding: 12px;
+}
+
+.wines-ad-text p {
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+.wines-ad-text h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /* 
 Section "Nossa Hístoria
