@@ -121,6 +121,10 @@ Header and Nav
     color: white;
 }
 
+.conteiner-box-text-header a:active {
+    opacity: 50%;
+}
+
 .img-header {
     width: auto;
     height: 400px;
@@ -190,3 +194,61 @@ Section "Vinhos"
 Section "Nossa Hístoria
 */
 
+.our-history {
+    height: 284px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #f5f2f2;
+    margin-left: 31px;
+}
+
+.our-history-botton-section {
+    display: flex;
+    border: 1px solid #cbcbcb;
+    border-radius: 9px;
+    padding: 16px;
+}
+
+.our-history-botton-section-flex {
+    margin-left: 16px;
+}
+
+.our-history-botton-section img{
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.conteiner-box-history h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.conteiner-box-history p {
+    font-size: 16px;
+    margin: 17px 0px 17px 0px;
+}
+
+.sr-giulio {
+    display: flex;
+}
+
+.sr-giulio img{
+    width: auto;
+    height: 20px;
+}
+
+/*
+Section "Avaliação de Clientes"
+/*
+
+/*
+Section "Ofertas e Eventos"
+/*
+
+/*
+Footer
+/*
