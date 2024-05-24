@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    font-family: "Roboto-Regular";
+    font-family: "Roboto-Regular", sans-serif;
     width: 100%;
     box-sizing: border-box;
 }
@@ -163,7 +163,6 @@ Section "Vinhos"
 .img-wines {
     width: auto;
     height: 240px;
-    border: 1% solid white;
     border-radius: 9px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -200,7 +199,7 @@ Section "Nossa Hístoria
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid #f5f2f2;
-    margin-left: 31px;
+
 }
 
 .our-history-botton-section {
@@ -245,7 +244,7 @@ Section "Nossa Hístoria
 .sr-giulio img{
     width: auto;
     height: 20px;
-    background-color: #cbcbcb;
+    background-color: #dadada;
     border-radius: 13px;
 }
 
@@ -254,14 +253,64 @@ Section "Avaliação de Clientes"
 */
 
 .customer-reviews {
-    height: 441px;
+    height: 337px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid #f5f2f2;
-    margin-left: 31px;
 }
 
+.user-review-container {
+    display: flex;
+    gap: 40px;
+}
+
+.user-review {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 240px;
+    height: 111px;
+    background-color: #F2F2F2;
+    padding: 16px;
+    border-radius: 9px;
+}
+
+.user-review p {
+    height: 72px;
+    font-size: 16px;
+    align-content: flex-start;
+    line-height: 24px;
+    width: 199px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-icon{
+    height: 32px;
+    width: 32px;
+    background-color: #dadada;
+    border-radius: 15px;
+}
+
+.user-name-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user-name-container h4 {
+    font-weight: bold;
+}
+
+.stars {
+    width: auto;
+    height: 11px;
+}
 
 /*
 Section "Ofertas e Eventos"
@@ -273,9 +322,55 @@ Section "Ofertas e Eventos"
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid #f5f2f2;
-    margin-left: 31px;
 }
 
+.offer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.emoji-click {
+    text-decoration: none;
+}
+
+.emoji-click img {
+    width: 100px;
+    height: 100px;
+    padding: 14px;
+    border-radius: 56px;
+    background-color: #F2F2F2;
+}
+
+.tittle {
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.sub {
+    font-size: 16px;
+    color: #808080;
+
+}
+
+.offer h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text-offer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 /*
 Footer
